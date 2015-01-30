@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -r icon.png ]; then cordova-icon; fi
+if [ -r splash.png ]; then cordova-splash; fi
+

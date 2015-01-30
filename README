@@ -1,0 +1,16 @@
+
+First:
+ionic plugin add https://github.com/opuslogica/OLIRecorder
+ionic platform add android
+
+Then, when you edit the actual plugin source and need it incorporated in the app:
+ionic plugin rm org.opuslogica.plugins.OLIRecorder
+ionic plugin add https://github.com/opuslogica/OLIRecorder
+
+To debug:
+without your phone plugged in:
+
+	ionic run ios
+
+then start Safari, and from the Develop menu connect to the iOS Simulator -> index.html
+Click "Start"
