@@ -15,6 +15,7 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "https://github.com/opuslogica/OLIRecorder"
+    "https://github.com/opuslogica/OLIRecorder",
+    "org.apache.cordova.file-transfer"
   ]
 }
