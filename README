@@ -1,7 +1,7 @@
 
 First:
 ionic plugin add https://github.com/opuslogica/OLIRecorder
-ionic platform add android
+ionic platform add ios
 
 Then, when you edit the actual plugin source and need it incorporated in the app:
 ionic plugin rm org.opuslogica.plugins.OLIRecorder
