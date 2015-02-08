@@ -1,4 +1,4 @@
-var app = angular.module('recorder', ['ionic', 'ngCordova', 'recorder.controllers']);
+var app = angular.module('recorder', ['ionic', 'recorder.controllers']);
 
 app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
